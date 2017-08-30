@@ -1,0 +1,13 @@
+The following is a set of topics that must be clarified to create the poster:
+
+1) Boltzmann Colission operator
+2) Boltzmann equations derivation and it's connection with the Liouville's equations of evolution
+3) Isothermal equation of state and why it is used to relate pressure and density in the LBM (p=c_{s}^{2}\rho)
+4) What is the lattice speed of sound and how to deduce it's expression from the theory
+5) Find the article "Boltzmann Approach to Lattice Gas Simulations" by F. J. HIGUERA and J. JIMENEZ
+6) How to deduce the relation between the kinematic vicosity and the time of relaxation (\nu = (1/3)(\tau - (1/2))(h^{2}/(\delta t)))
+7) How deduce that the solution converges with order (Ma)^{2} , where Ma is the computational Mach number.
+8) Why does the isothermal state equation implies that the incompressibility is only partially satisfied
+9) How to deduce between the real viscosity and the lattice viscosity, and why is stable the simluation if the fluid is more viscous.
+10) How is a Force introduced in the Collision operator and why the momentum is calculated in a different way?
+11) Why the normalization of the density function (0<f^{\sigma}_{i}<1) implies that 0<\alpha^{\sigma}<1?
